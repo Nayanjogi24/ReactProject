@@ -8,11 +8,8 @@ function Common() {
 
   const handleSearch = (searchText) => {
     debugger
-    // Simulate "searching" by creating fake data using the search text
     const newData = [
       `${searchText} result 1`,
-      `${searchText} result 2`,
-      `${searchText} result 3`,
     ];
     setResults(newData);
   };
@@ -20,7 +17,7 @@ function Common() {
   return (
     <div className="container mt-3">
       <h4>Common Page</h4>
-      <SearchContainer onSearch={handleSearch} /> // WHAT EVER I WILL SEARCH FIRST COME HERE MA
+      <SearchContainer onSearch={handleSearch} />
       <TableReport data={results} />
     </div>
   );
