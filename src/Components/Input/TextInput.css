@@ -1,0 +1,29 @@
+.custom-input-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-input-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.required {
+  color: red;
+  margin-left: 3px;
+}
+
+.custom-input {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 3px #28a745;
+}
