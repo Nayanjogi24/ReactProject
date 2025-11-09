@@ -11,7 +11,8 @@ function SearchContainer({ onSearch }) {    // onSearch WHY onSearch IS PASSING 
   };
 
   return (
-    <div className="p-3 border rounded">   // IT WILL NOT COME HERE OR 
+    <div className="p-3 border rounded">  
+    <div> Nayan</div>
       <h5>Search Box</h5>
       <Input
         type="text"
