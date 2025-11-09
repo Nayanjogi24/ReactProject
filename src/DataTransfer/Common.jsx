@@ -9,14 +9,13 @@ function Common() {
   const handleSearch = (searchText) => {
     debugger
     const newData = [
-      `${searchText} result 1`,
+      `${searchText} `,
     ];
     setResults(newData);
   };
 
   return (
     <div className="container mt-3">
-      <h4>Common Page</h4>
       <SearchContainer onSearch={handleSearch} />
       <TableReport data={results} />
     </div>

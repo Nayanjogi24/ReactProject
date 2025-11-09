@@ -11,8 +11,8 @@ function TableReport({ data }) {
         <Table bordered>
           <thead>
             <tr>
-              <th>#</th>
-              <th>Result</th>
+              <th>SNO</th>
+              <th>Result N</th>
             </tr>
           </thead>
           <tbody>
