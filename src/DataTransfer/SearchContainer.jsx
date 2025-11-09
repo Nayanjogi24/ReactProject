@@ -12,7 +12,7 @@ function SearchContainer({ onSearch }) {    // onSearch WHY onSearch IS PASSING 
 
   return (
     <div className="p-3 border rounded">  
-    <div> Nayan</div>
+    <h1> Nayan </h1>
       <h5>Search Box</h5>
       <Input
         type="text"
